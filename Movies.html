@@ -123,9 +123,13 @@ Error message and password prompt
 
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
 
 <li>$:/config/TextEditor/EnableToolbar</li>
 
@@ -419,10 +423,16 @@ Error message and password prompt
 <div created="20161020235740834" modified="20161115162305766" title="$:/config/Navigation/openLinkFromInsideRiver">
 <pre>above</pre>
 </div>
-<div created="20161020235817478" modified="20161020235817478" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<div created="20161201194349795" modified="20161201194349795" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<pre>hide</pre>
+</div>
+<div created="20161020235817478" modified="20161201194354146" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
 <div created="20161020235820094" modified="20161127162728149" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/import">
+<pre>hide</pre>
+</div>
+<div created="20161201194346731" modified="20161201194346731" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
 <div created="20161104202922029" modified="20161104202939133" title="$:/config/TextEditor/EnableToolbar">
@@ -8362,10 +8372,10 @@ very-muted-foreground: #888888</pre>
 <div created="20161126193215021" modified="20161129200845389" title="$:/state/SampleReveal15">
 <pre>hide</pre>
 </div>
-<div created="20161126194245512" modified="20161129200847688" title="$:/state/SampleReveal16">
+<div created="20161126194245512" modified="20161201194504640" title="$:/state/SampleReveal16">
 <pre>hide</pre>
 </div>
-<div created="20161126202142360" modified="20161129200850900" title="$:/state/SampleReveal17">
+<div created="20161126202142360" modified="20161201194517584" title="$:/state/SampleReveal17">
 <pre>hide</pre>
 </div>
 <div created="20161126204518390" modified="20161129200853824" title="$:/state/SampleReveal18">
@@ -8383,10 +8393,10 @@ very-muted-foreground: #888888</pre>
 <div created="20161126233043657" modified="20161127160439041" title="$:/state/SampleReveal21">
 <pre>hide</pre>
 </div>
-<div created="20161126233658531" modified="20161127160436761" title="$:/state/SampleReveal22">
+<div created="20161126233658531" modified="20161201194532327" title="$:/state/SampleReveal22">
 <pre>hide</pre>
 </div>
-<div created="20161127000253879" modified="20161127160434777" title="$:/state/SampleReveal23">
+<div created="20161127000253879" modified="20161201194542295" title="$:/state/SampleReveal23">
 <pre>hide</pre>
 </div>
 <div created="20161127000901293" modified="20161127143737631" title="$:/state/SampleReveal24">
@@ -8404,7 +8414,7 @@ very-muted-foreground: #888888</pre>
 <div created="20161127003401313" modified="20161127181232075" title="$:/state/SampleReveal28">
 <pre>hide</pre>
 </div>
-<div created="20161127164524507" modified="20161129193511404" title="$:/state/SampleReveal29">
+<div created="20161127164524507" modified="20161201194416690" title="$:/state/SampleReveal29">
 <pre>hide</pre>
 </div>
 <div created="20161127165027304" modified="20161129193514217" title="$:/state/SampleReveal30">
@@ -8416,7 +8426,7 @@ very-muted-foreground: #888888</pre>
 <div created="20161127171414252" modified="20161129193520150" title="$:/state/SampleReveal32">
 <pre>hide</pre>
 </div>
-<div created="20161127172029417" modified="20161129193522610" title="$:/state/SampleReveal33">
+<div created="20161127172029417" modified="20161201194323171" title="$:/state/SampleReveal33">
 <pre>hide</pre>
 </div>
 <div created="20161127172504438" modified="20161129193525044" title="$:/state/SampleReveal34">
@@ -8440,11 +8450,11 @@ very-muted-foreground: #888888</pre>
 <div created="20161114235825895" modified="20161129194154435" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20161127181743151" modified="20161129194215601" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/System</pre>
+<div created="20161127181743151" modified="20161201194309212" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Filter</pre>
 </div>
-<div created="20161020235749605" modified="20161129200058948" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/StoryView</pre>
+<div created="20161020235749605" modified="20161201194339027" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
 <div created="20161115162226808" modified="20161115162229904" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Basics</pre>
@@ -8452,20 +8462,20 @@ very-muted-foreground: #888888</pre>
 <div created="20161115162228984" modified="20161115162228984" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20161020235722412" modified="20161129200538145" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20161020235722412" modified="20161201194337075" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20161020235814366" modified="20161129200349923" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
-<div created="20161020235807494" modified="20161020235808357" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
+<div created="20161020235807494" modified="20161201194344811" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
 </div>
-<div list="Start" title="$:/StoryList">
+<div list="[[Who said this? (16)]] [[Who said this? (15)]] [[Who said this? (14)]] [[Who said this? (13)]] [[Who said this? (12)]] [[Who said this? (11)]] [[Who said this? (10)]] [[Who said this? (09)]] [[Who said this? (08)]] [[Who said this? (07)]] [[Who said this? (06)]] [[Who said this? (05)]] [[Who said this? (04)]] [[Who said this? (03)]] [[Who said this? (02)]] [[Who said this? (01)]] Quote [[Who's this? (01)]] Character Location [[Where was this filmed? (09)]] [[Where was this filmed? (08)]] [[Where was this filmed? (07)]] [[Where was this filmed? (06)]] [[Where was this filmed? (05)]] [[Where was this filmed? (04)]] [[Where was this filmed? (03)]] [[Where was this filmed? (02)]] [[Where was this filmed? (01)]] Start" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20161127161935425" modified="20161129200919036" title="$:/temp/advancedsearch">
-<pre>View</pre>
+<div created="20161127161935425" modified="20161201194309212" title="$:/temp/advancedsearch">
+<pre>[!is[system]sort[title]]</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
